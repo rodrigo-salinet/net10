@@ -1,0 +1,26 @@
+  body{
+background-color: transparent;
+background-image: url(undefined);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: left top;
+} 
+ table{
+border: solid  1;
+border-color: transparent;
+} 
+ td{
+color: #000000;
+font-family: Verdana;
+font-size: 9;
+text-align: center;
+border: 0  solid;
+background-color: #FFCC00;
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+} 
+ input{
+font-family: Fonte padrão;
+text-align: Escolha um...;
+} 

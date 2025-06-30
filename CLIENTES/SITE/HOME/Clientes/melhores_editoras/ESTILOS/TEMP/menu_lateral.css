@@ -1,0 +1,26 @@
+  body{
+background-color: #ff0000;
+background-image: url(http://intranet/net10/unificado/site/home/clientes/default/imagens//BKG.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: left top;
+} 
+ table{
+border: solid  0;
+border-color: transparent;
+} 
+ td{
+font-family: Verdana;
+font-size: 12;
+font-weight: bold;
+text-align: center;
+border: 0  solid;
+background-image: url(http://intranet/net10/unificado/site/home/clientes/default/imagens//BKG.jpg);
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+} 
+ input{
+font-family: Fonte padrão;
+text-align: Escolha um...;
+} 

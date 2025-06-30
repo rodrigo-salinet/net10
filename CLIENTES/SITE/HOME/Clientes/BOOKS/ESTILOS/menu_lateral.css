@@ -1,0 +1,44 @@
+
+.sobre{
+background-color: #ffff00;
+border-color: #408080;
+border-style: solid;
+border-width: 2;
+color: #ffff00;
+font-size: 10;
+font-weight: bold;
+background-attachment: fixed;
+}
+
+
+body{
+background-color: #ff8040;
+background-image: url(http://www.net10.com.br/clientes/site/home/clientes/books/imagens//Dinheiro.gif);
+background-position: left top;
+background-repeat: repeat;
+.: .;
+}
+
+
+table{
+border-color: #808080;
+border-style: solid;
+border-width: 1;
+background-attachment: fixed;
+}
+
+
+td{
+background-color: #ffffff;
+background-image: url(http://www.net10.com.br/clientes/site/home/clientes/books/imagens//Barra2.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+border-style: solid;
+border-width: 1;
+color: #ffffff;
+font-size: 10;
+font-weight: bold;
+text-align: left;
+vertical-align: top;
+}
+

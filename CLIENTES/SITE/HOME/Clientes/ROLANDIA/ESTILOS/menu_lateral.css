@@ -1,0 +1,21 @@
+  body{
+background-color: #FFFFCC;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: left top;
+} 
+ table{
+border-color: transparent;
+: no-repeat;
+} 
+ td{
+font-family: Verdana;
+font-size: 9;
+color: #000000;
+background-color: #FFCC00;
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+text-align: center;
+border: 0;
+}

@@ -1,0 +1,197 @@
+<!--/********************************************************
+*           colpick.html - part of EditAce                  *
+*           copyright Simon Norris 2002                     *
+*           email: si@web-sn.com                            *
+*           EditAce home page: http://www.web-sn.com        *
+*                                                           *
+*           Removal or modification of this notice is       *
+*		    a violation of copyright and the terms of use   *
+*           Last Modified: 24 June 2002                     *
+********************************************************/ -->
+<html>
+<head>
+<title>Escolha a Cor</title>
+<style>
+.colourBox {
+  color: black;
+  border: 1px solid black;
+  padding: 2px;
+  width: 9px;
+  height: 9px;
+  font-family: verdana;
+  font-size: 7px;
+  cursor: hand;
+}
+</style>
+<script language="JavaScript" type="text/javascript">
+var webSafeColours1 = new Array("000000","003300","006600","009900","00CC00","00FF00",
+"330000","333300","336600","339900","33CC00","33FF00",
+"660000","663300","666600","669900","66CC00","66FF00",
+"000033","003333","006633","009933","00CC33","00FF33",
+"330033","333333","336633","339933","33CC33","33FF33",
+"660033","663333","666633","669933","66CC33","66FF33",
+"000066","003366","006666","009966","00CC66","00FF66",
+"330066","333366","336666","339966","33CC66","33FF66",
+"660066","663366","666666","669966","66CC66","66FF66",
+"000099","003399","006699","009999","00CC99","00FF99",
+"330099","333399","336699","339999","33CC99","33FF99",
+"660099","663399","666699","669999","66CC99","66FF99",
+"0000CC","0033CC","0066CC","0099CC","00CCCC","00FFCC",
+"3300CC","3333CC","3366CC","3399CC","33CCCC","33FFCC",
+"6600CC","6633CC","6666CC","6699CC","66CCCC","66FFCC",
+"0000FF","0033FF","0066FF","0099FF","00CCFF","00FFFF",
+"3300FF","3333FF","3366FF","3399FF","33CCFF","33FFFF",
+"6600FF","6633FF","6666FF","6699FF","66CCFF","66FFFF",
+"333333","666666")
+
+var webSafeColours2 = new Array("990000","993300","996600","999900","99CC00","99FF00",
+"CC0000","CC3300","CC6600","CC9900","CCCC00","CCFF00",
+"FF0000","FF3300","FF6600","FF9900","FFCC00","FFFF00",
+"990033","993333","996633","999933","99CC33","99FF33",
+"CC0033","CC3333","CC6633","CC9933","CCCC33","CCFF33",
+"FF0033","FF3333","FF6633","FF9933","FFCC33","FFFF33",
+"990066","993366","996666","999966","99CC66","99FF66",
+"CC0066","CC3366","CC6666","CC9966","CCCC66","CCFF66",
+"FF0066","FF3366","FF6666","FF9966","FFCC66","FFFF66",
+"990099","993399","996699","999999","99CC99","99FF99",
+"CC0099","CC3399","CC6699","CC9999","CCCC99","CCFF99",
+"FF0099","FF3399","FF6699","FF9999","FFCC99","FFFF99",
+"9933CC","9933CC","9966CC","9999CC","99CCCC","99FFCC",
+"CC33CC","CC33CC","CC66CC","CC99CC","CCCCCC","CCFFCC",
+"FF33CC","FF33CC","FF66CC","FF99CC","FFCCCC","FFFFCC",
+"9900FF","9933FF","9966FF","9999FF","99CCFF","99FFFF",
+"CC00FF","CC33FF","CC66FF","CC99FF","CCCCFF","CCFFFF",
+"FF00FF","FF33FF","FF66FF","FF99FF","FFCCFF","FFFFFF",
+"CCCCCC","999999");
+
+function writeColBoxes(thearray) {
+	var tds = 5;
+	var htmlstr = "";
+	
+	for (var i=0; i<thearray.length; ) {
+		htmlstr += "<tr>"
+		for (var j=0; j<=tds && i<thearray.length; j++) {
+	      htmlstr += "<td align=\"center\" valign=\"middle\" class=\"colourBox\" "
+		  htmlstr += "style=\"background-color:#" + thearray[i] + ";\" " 
+		  htmlstr += "ondblclick=\" writeIt('" + thearray[i] + "')\" onclick=\"spcClick('" + thearray[i] + "')\" onmouseover=\"spcOver(this)\" onmouseout=\"spcOut(this)\" title=\"" + thearray[i] + "\">";
+		  htmlstr += "&nbsp;</td>";
+		  i++;
+		}
+		htmlstr += "</tr>";
+	}
+	return(htmlstr);
+}
+
+// click handler
+function spcClick(ch) {
+  document.all['charVal'].value = ch;
+  document.all['curSelection'].style.backgroundColor = "#" + ch;
+}
+
+// mouseover handler
+function spcOver(el) {
+  el.style.borderWidth = "2px";
+  el.style.padding = "1px";
+  elbg = el.style.backgroundColor;
+  elbg = elbg.toUpperCase();
+  el.style.borderColor = elbg;
+  document.all['colPrevTxt'].innerText = elbg;
+  document.all['colPrev'].style.backgroundColor = elbg;
+}
+
+// mouseout handler
+function spcOut(el) {
+  el.style.border = "1px solid black";
+  el.style.padding = "2px";
+}
+ 
+function writeIt(val) {
+  if (val == "") { 
+	  alert("Por favor, escolha uma cor ou insira um valor no campo cor");
+	  return false;
+  }
+  var ch = new Array();
+  ch['col'] = val; 
+  window.returnValue = ch;
+  window.close();
+}
+
+function updateSel() {
+  newval = document.all['charVal'].value;
+  if (newval != "") {
+    document.all['curSelection'].style.backgroundColor = "#" + newval;
+  }
+}
+  
+window.onload = function () {
+          if (top.document.all['editor']) { //if it exists then we are in the caching iframe and not the popup window
+		    top.splash.pbar(4);
+		  }
+		  else {
+		    autoDialogHeight();
+		  }
+}
+</script>
+<script language="javascript" type="text/javascript">
+function autoDialogHeight() {
+  var h = document.body.scrollHeight;
+  window.dialogHeight = (h + 30) + "px";
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+<body bgcolor="#C0C0C0" >
+<table border="0" cellspacing="5" cellpadding="4" width="96%" align="center">
+<tr align="center">
+ <td>
+  <fieldset style="padding-bottom:5px" align="center">
+      <legend> <strong><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Escolha 
+      a cor desejada</font></strong></legend>
+      <br>
+   <table border="0" cellspacing="5" cellpadding="0">
+    <tr>
+	 <td>
+	  <table border="0" cellspacing="0" cellpadding="0">
+        <script>document.write(writeColBoxes(webSafeColours1));</script>
+	  </table>
+	 </td>
+	 <td>
+	  <table border="0" cellspacing="0" cellpadding="0">
+        <script>document.write(writeColBoxes(webSafeColours2));</script>
+	  </table>
+	 </td>
+	      <td colspan="14" align="left" valign="top"> <span title="You can enter your own hex (don't include the #) or named colour here if you prefer"> 
+            <strong><font size="1" face="Verdana, Arial, Helvetica, sans-serif">N&ordm; 
+            Hexa ou Nome da cor:</font></strong><br>
+            <input type="text" size="15" name="charVal" onblur="updateSel()" style="font:menu">
+	  </span><br>
+            <strong><font size="1" face="Verdana, Arial, Helvetica, sans-serif">Selecione 
+            a Cor: </font></strong><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+            </font> 
+            <div id="curSelection" style="width:30px; height:30px; border: 1px solid black">&nbsp;</div><br>
+            <strong><font size="1" face="Verdana, Arial, Helvetica, sans-serif">Visualiza&ccedil;&atilde;o: 
+            </font><font size="1"><span id="colPrevTxt"></span></font></strong> 
+            <div id="colPrev" style="width:30px; height:30px; border: 1px solid black">&nbsp;</div><br>
+	  
+	 </td>
+	</tr>
+   </table>
+  </fieldset>
+ </td>
+</tr>
+<tr>
+ <td colspan="14">
+  <table border="0" cellspacing="0" cellpadding="0" width="95%" align="center">
+        <tr> 
+          <td width="100%" colspan="4" align="right"> <div align="center"> 
+              <input type="button" value=".:: Selecionar Cor ::." class="buttons" onClick="writeIt(document.all['charVal'].value)">
+              &nbsp;&nbsp;&nbsp; 
+              <input type="button" value=".:: Cancelar ::." class="buttons" onClick="window.close()">
+            </div></td>
+        </tr>
+      </table>
+ </td>
+</tr>
+</table>
+</body>
+</html>

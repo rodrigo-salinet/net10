@@ -1,0 +1,74 @@
+<Warning_Info>
+Note: This file be created and maintained by Javascript Menu Builder GOLD 1.0.
+It may cause the project file can't be opened correctly if you modify it by yourself!
+</Warning_Info>
+<Product_Name>
+Javascript Menu Builder GOLD
+</Product_Name>
+<Product_Version>
+1.0
+</Product_Version>
+<Applet_Parameters>
+Menu#$@#$@0#$@1#$@0#$@0#$@1#$@#$@0#$@1000#$@1#$@verdana,arial,helvetica,times new roman#$@7#$@0#$@0#$@1#$@000000#$@40#$@12#$@1#$@5#$@1#$@#$@
+</Applet_Parameters>
+<Item_Parameters>
+i0#$@#$@Item#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@Abre a caixa de diálogo do Item#$@0#$@
+i1#$@i0#$@Salvar#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@Salva o Item#$@1#$@
+i2#$@i0#$@Recarregar#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@Desfaz as alterações não salvas no Item#$@1#$@
+i3#$@i0#$@Voltar#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@Volta ao Administrador Geral#$@1#$@
+i4#$@#$@Editar#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@0#$@
+i5#$@i4#$@Copiar (ctrl+c)#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i6#$@i4#$@Colar (ctrl+v)#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i7#$@#$@Exibir#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@0#$@
+i8#$@i7#$@Modo HTML#$@javascript:setMode(true);#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i9#$@i7#$@Modo texto#$@javascript:setMode(true);#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i10#$@#$@Modificar#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@0#$@
+i11#$@i10#$@Fonte#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i12#$@i11#$@Estilo#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i13#$@i12#$@Arial#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i14#$@i12#$@Verdana#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i15#$@i12#$@Helvetica#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i16#$@i12#$@Times#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i17#$@i12#$@Courier#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i18#$@i12#$@Georgia#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i19#$@i12#$@Outra fonte...#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i20#$@i11#$@Tamanho#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i21#$@i20#$@Extra pequeno#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i22#$@i20#$@Muito pequeno#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i23#$@i20#$@Pequeno#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i24#$@i20#$@Médio#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i25#$@i20#$@Grande#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i26#$@i20#$@Muito grande#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i27#$@i20#$@Extra grande#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i28#$@i11#$@Parágrafo#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i29#$@i28#$@Normal#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i30#$@i28#$@Título 1 <H1>#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i31#$@i28#$@Título 2 <H2>#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i32#$@i28#$@Título 3 <H3>#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i33#$@i28#$@Título 4 <H4>#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i34#$@i28#$@Título 5 <H5>#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i35#$@i28#$@Título 6 <H6>#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i36#$@i28#$@Pre <PRE>#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@3#$@
+i37#$@i10#$@Tabela#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i38#$@i37#$@Inserir tabela...#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i39#$@i37#$@Modificar tabela...#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i40#$@i37#$@Modificar célula...#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i41#$@i37#$@Inserir linha#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i42#$@i37#$@Inserir coluna#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i43#$@i37#$@Deletar linha#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i44#$@i37#$@Deletar coluna#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i45#$@i10#$@Fundo da página#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i46#$@i45#$@Cor#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i47#$@i45#$@Imagem#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i48#$@i10#$@Alinhamento#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i49#$@i48#$@À esquerda#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i50#$@i48#$@À direita#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i51#$@i48#$@Ao centro#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i52#$@i48#$@Justificado#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i53#$@i10#$@Recuo#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i54#$@i53#$@Aumentar#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i55#$@i53#$@Diminuir#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i56#$@i10#$@Lista#$@#$@_self#$@100#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@1#$@
+i57#$@i56#$@Numerada#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+i58#$@i56#$@Não Numerada#$@#$@_self#$@80#$@14#$@#$@#$@DDDBDB#$@000080#$@000000#$@FFFFFF#$@#$@2#$@
+</Item_Parameters>

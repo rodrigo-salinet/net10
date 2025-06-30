@@ -1,0 +1,20 @@
+  body{
+background-color: #FFFFFF;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: left top;
+} 
+ table{
+border: solid  1;
+border-color: #333333;
+} 
+ td{
+font-family: Arial;
+font-size: 12;
+font-weight: bold;
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+text-align: center;
+border: 0  solid;
+}

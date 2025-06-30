@@ -1,0 +1,40 @@
+
+.sobre{
+background-color: ;
+border: ,, solid;
+border-color: ;
+}
+body{
+background-color: transparent;
+background-image: ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: left top;
+}
+td{
+font-family: Verdana;
+font-size: 9;
+}
+table{
+border: solid, ,0;
+border-color: ;
+text-align: left;
+border: , solid;
+vertical-align: top;
+background-color: ;
+background-image: ;
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+}
+input{
+font-family: Fonte padrão;
+text-align: Escolha um...;
+font-size: ;
+color: ;
+color: ;
+background-color: ;
+font-family: Não alterar;
+text-align: Não Alterar;
+font-size: ;
+color: ;}

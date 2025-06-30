@@ -1,0 +1,21 @@
+  body{
+background-color: transparent;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: left top;
+} 
+ table{
+border: 0;
+border-color: transparent;
+} 
+ td{
+font-family: Arial;
+font-size: 18;
+font-weight: bold;
+color: #FFFFFF;
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+text-align: center;
+border: 0;
+}

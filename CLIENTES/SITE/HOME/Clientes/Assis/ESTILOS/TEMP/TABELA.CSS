@@ -1,0 +1,31 @@
+  body{
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: left top;
+} 
+ table{
+border: solid  ;
+} 
+ td{
+font-family: Fonte padrão;
+text-align: left;
+border:   solid;
+vertical-align: top;
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+} 
+ input{
+border:   solid;
+font-family: Fonte padrão;
+text-align: Escolha um...;
+font-family: Não alterar;
+text-align: Não Alterar;
+} 
+ .sobre{
+border:   solid;
+font-family: Fonte padrão;
+text-align: Escolha um...;
+font-family: Não alterar;
+text-align: Não Alterar;
+} 

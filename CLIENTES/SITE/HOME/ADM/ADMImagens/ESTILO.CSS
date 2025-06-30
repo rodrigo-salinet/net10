@@ -1,0 +1,9 @@
+body {
+	background-color: #CCCCCC;
+}
+.carregando {
+	background-attachment: fixed;
+	background-image: url(Imagens/Carregando.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}

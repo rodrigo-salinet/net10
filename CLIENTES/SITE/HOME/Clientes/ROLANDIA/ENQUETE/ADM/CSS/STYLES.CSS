@@ -1,0 +1,22 @@
+<!--
+body 						{color: #000000; font-family: Verdana, Arial, helvetica, sans-serif; font-size: 10px; OVERFLOW:scroll; OVERFLOW-X:hidden;} 
+td				 			{color: #000000; font-family: Verdana, Arial, helvetica, sans-serif; font-size: 10px;} 
+tr.grey1				   	{color: #000000; background-color: #dddddd; font-weight: bold;}		
+tr.grey2   					{color: #000000; background-color: #eeeeee; font-weight: bold;}		
+input.butao					{color: #ffffff; background-color:#3184BD; font-family: Verdana, Arial, helvetica, sans-serif; font-size: 10px;font-weight: bold;}
+input.textbox				{color: #000000; background-color:#ffffff; font-family: Verdana, Arial, helvetica, sans-serif; font-size: 10px;border-style: solid; border-top-width: thin; border-right-width: thin; border-bottom-width: thin; border-left-width: thin; border: #000000;}
+A.nav 						{color: #ffffff; text-decoration:none;}
+A.nav:visited			 	{color: #ffffff; text-decoration:none;}
+A.nav:hover 				{color: #ffffaa; text-decoration:underline;}
+A.nav:active			 	{color: #ffc400; text-decoration:underline;}
+td.nav  					{color: #ffffff; background-color: #3184BD; font-weight: bold;}
+table.nav					{border: #3184BD; border-style: solid; border-top-width: thin; border-right-width: thin; border-bottom-width: thin; border-left-width: thin}
+A.enquete 					{color: #000000; text-decoration:none;}
+A.enquete:visited 			{color: #000000; text-decoration:none;}
+A.enquete:hover			 	{color: #0000ff; text-decoration:underline;}
+A.enquete:active 			{color: #ffc400; text-decoration:underline;}
+td.enquete					{color: #0089cd; font-weight: bold;}
+tr.enquete					{background-color: #000099;}
+table.enquete				{border: #3184BD; border-style: solid; border-top-width: thin; border-right-width: thin; border-bottom-width: thin; border-left-width: thin}
+td.title					{color: #ffffff; background-color: #ff8300; font-size: 18px; font-weight: bold; font-style: italic;}
+-->
